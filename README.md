@@ -3,7 +3,7 @@
   The original is at https://www.repetier-server.com/en/wp-content/uploads/2020/04/logo-repetier-server.png
 -->
 <p align="center">
-  <img src="docs/images/logo.png" alt="Repetier-Server logo" width="400">
+  <img src="docs/images/logo.png" alt="Repetier-Server logo" width="200">
 </p>
 
 <p align="center">
