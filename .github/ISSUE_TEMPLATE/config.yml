@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://www.repetier-server.com
+    about: Manuals and guides for Repetier-Server. There is no personal support anymore.

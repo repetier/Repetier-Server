@@ -1,0 +1,88 @@
+name: Bug report
+description: Report a bug in the latest Repetier-Server release.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Development of Repetier-Server has been discontinued.** We read bug reports and may
+        publish one or two bug-fix releases, but we cannot promise a fix or an answer.
+        There is no support for installation or configuration questions.
+
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand that the project is discontinued and fixes are not guaranteed.
+          required: true
+        - label: I am using the latest release from this repository.
+          required: true
+        - label: I searched the existing issues and this bug has not been reported yet.
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Repetier-Server version
+      placeholder: "2.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows x64
+        - Windows ARM64
+        - macOS Apple Silicon
+        - macOS Intel
+        - Linux amd64
+        - Linux arm64
+        - Linux armhf
+        - Linux armel
+        - Linux i386
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system and device
+      placeholder: "Raspberry Pi OS Bookworm 64-bit on a Raspberry Pi 5"
+
+  - type: input
+    id: printer
+    attributes:
+      label: Printer and firmware
+      placeholder: "Prusa MK3S with Marlin 2.1, Klipper, Bambu Lab X1C, ..."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: >
+        Relevant parts of the server or printer log (available in the user interface).
+        Remove passwords, API keys and other private data before posting.
+      render: text
