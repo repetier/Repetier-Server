@@ -1,10 +1,19 @@
 # Changelog
 
+> [!WARNING]
+> Back up your old files if you might want to go back to an older version prior 2.0.0. The storage format has
+> changed, and older versions will lose a lot of data if you revert.
+
+## 2.0.1
+
+### New
+
+- Translation completely rewritten for consistency.
+- Fixed some bundled programs.
+- Minor bug fixes and performance improvements.
+
 ## 2.0.0
 
-> [!WARNING]
-> Back up your old files if you might want to go back to an older version. The storage format has
-> changed, and older versions will lose a lot of data if you revert.
 
 ### License
 

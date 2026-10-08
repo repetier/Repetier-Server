@@ -32,7 +32,7 @@
 > This repository is the official archive and download location for Repetier-Server. It contains
 > the installers only, not the source code.
 >
-> - **Repetier-Server 2.0.0 is free for everyone** – for personal and commercial use, with all
+> - **Repetier-Server 2.0.1 is free for everyone** – for personal and commercial use, with all
 >   features and without a license key.
 > - We may publish one or two bug-fix releases if serious bugs are reported. After that, there
 >   will be no further development.
@@ -49,36 +49,36 @@
 
 ## Download
 
-The latest version is **Repetier-Server 2.0.0**. All files are attached to the
+The latest version is **Repetier-Server 2.0.1**. All files are attached to the
 [latest release](https://github.com/repetier/Repetier-Server/releases/latest).
 
 <!-- Update the version in the file names and links below with every new release. -->
 
 | Platform                   | File                                                 | Requirements                              |
 | -------------------------- | ---------------------------------------------------- | ----------------------------------------- |
-| Windows (64-bit Intel/AMD) | [Repetier-Server-2.0.0-windows-x64.exe][win-x64]     | Windows 10 or 11                          |
-| Windows (ARM)              | [Repetier-Server-2.0.0-windows-arm64.exe][win-arm64] | Windows 11 on ARM                         |
-| macOS (Apple Silicon)      | [Repetier-Server-2.0.0-macos-arm64.pkg][mac-arm64]   | macOS 12 Monterey or later                |
-| macOS (Intel)              | [Repetier-Server-2.0.0-macos-x64.pkg][mac-x64]       | macOS 12 Monterey or later                |
-| Linux 64-bit Intel/AMD     | [Repetier-Server-2.0.0-linux-amd64.deb][linux-amd64] | Debian, Ubuntu or another Debian-based OS |
-| Linux 64-bit ARM           | [Repetier-Server-2.0.0-linux-arm64.deb][linux-arm64] | Debian, Ubuntu or another Debian-based OS |
-| Linux 32-bit ARM (armhf)   | [Repetier-Server-2.0.0-linux-armhf.deb][linux-armhf] | Debian, Ubuntu or another Debian-based OS |
-| Linux 32-bit ARM (armel)   | [Repetier-Server-2.0.0-linux-armel.deb][linux-armel] | Debian, Ubuntu or another Debian-based OS |
-| Linux 32-bit Intel         | [Repetier-Server-2.0.0-linux-i386.deb][linux-i386]   | Debian, Ubuntu or another Debian-based OS |
+| Windows (64-bit Intel/AMD) | [Repetier-Server-2.0.1-windows-x64.exe][win-x64]     | Windows 10 or 11                          |
+| Windows (ARM)              | [Repetier-Server-2.0.1-windows-arm64.exe][win-arm64] | Windows 11 on ARM                         |
+| macOS (Apple Silicon)      | [Repetier-Server-2.0.1-macos-arm64.pkg][mac-arm64]   | macOS 12 Monterey or later                |
+| macOS (Intel)              | [Repetier-Server-2.0.1-macos-x64.pkg][mac-x64]       | macOS 12 Monterey or later                |
+| Linux 64-bit Intel/AMD     | [Repetier-Server-2.0.1-linux-amd64.deb][linux-amd64] | Debian, Ubuntu or another Debian-based OS |
+| Linux 64-bit ARM           | [Repetier-Server-2.0.1-linux-arm64.deb][linux-arm64] | Debian, Ubuntu or another Debian-based OS |
+| Linux 32-bit ARM (armhf)   | [Repetier-Server-2.0.1-linux-armhf.deb][linux-armhf] | Debian, Ubuntu or another Debian-based OS |
+| Linux 32-bit ARM (armel)   | [Repetier-Server-2.0.1-linux-armel.deb][linux-armel] | Debian, Ubuntu or another Debian-based OS |
+| Linux 32-bit Intel         | [Repetier-Server-2.0.1-linux-i386.deb][linux-i386]   | Debian, Ubuntu or another Debian-based OS |
 
-<!-- TODO: Check the minimum Windows, macOS and glibc versions against the actual 2.0.0 builds. -->
+<!-- TODO: Check the minimum Windows, macOS and glibc versions against the actual 2.0.1 builds. -->
 
 Each release also contains a `SHA256SUMS.txt` file so you can verify your download.
 
-[win-x64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-windows-x64.exe
-[win-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-windows-arm64.exe
-[mac-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-macos-arm64.pkg
-[mac-x64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-macos-x64.pkg
-[linux-amd64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-linux-amd64.deb
-[linux-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-linux-arm64.deb
-[linux-armhf]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-linux-armhf.deb
-[linux-armel]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-linux-armel.deb
-[linux-i386]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.0/Repetier-Server-2.0.0-linux-i386.deb
+[win-x64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-windows-x64.exe
+[win-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-windows-arm64.exe
+[mac-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-macos-arm64.pkg
+[mac-x64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-macos-x64.pkg
+[linux-amd64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-linux-amd64.deb
+[linux-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-linux-arm64.deb
+[linux-armhf]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-linux-armhf.deb
+[linux-armel]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-linux-armel.deb
+[linux-i386]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-linux-i386.deb
 
 ### Which Linux package do I need?
 
@@ -96,13 +96,13 @@ dpkg --print-architecture
 | `armel` | armel   | Raspberry Pi 1 and Zero (ARMv6)                             |
 | `i386`  | i386    | Old 32-bit PCs                                              |
 
-Older 1.x versions are not published here. Version 2.0.0 includes everything the old Pro version
+Older 1.x versions are not published here. Version 2.0.1 includes everything the old Pro version
 offered, without a license key.
 
 ## Free for everyone
 
 Up to version 1.x, Repetier-Server was sold in Free, Lite and Pro editions, and many features
-required a paid license key. **Starting with version 2.0.0, every feature is unlocked for
+required a paid license key. **Starting with version 2.0.1, every feature is unlocked for
 everyone.**
 
 - No license key, no registration, no activation.
@@ -112,7 +112,7 @@ everyone.**
   (see [EULA § 1](LICENSE.md#-1-license)).
 
 If you bought a license in the past: thank you! You helped make this project possible. You no longer
-need the key with version 2.0.0.
+need the key with version 2.0.1.
 
 ## Features
 
@@ -190,7 +190,7 @@ Download the matching `.deb` package and install it with `apt`, which also insta
 dependencies:
 
 ```bash
-sudo apt install ./Repetier-Server-2.0.0-linux-arm64.deb
+sudo apt install ./Repetier-Server-2.0.1-linux-arm64.deb
 ```
 
 Then open `http://<ip-of-your-device>:3344` in your browser.
@@ -198,17 +198,17 @@ Then open `http://<ip-of-your-device>:3344` in your browser.
 ### Upgrading from 1.x
 
 > [!WARNING]
-> Version 2.0.0 uses a new storage format. **Back up your Repetier-Server data before upgrading.**
+> Version 2.0.1 uses a new storage format. **Back up your Repetier-Server data before upgrading.**
 > If you install an older version again afterwards, a lot of data will be lost.
 
-Install 2.0.0 over your existing installation. If you use Klipper printers, check the new
+Install 2.0.1 over your existing installation. If you use Klipper printers, check the new
 Klipper settings in the printer configuration after upgrading.
 
 ## Support and bug reports
 
 There is **no support** for Repetier-Server anymore.
 
-If you find a serious bug in version 2.0.0, you can
+If you find a serious bug in version 2.0.1, you can
 [open an issue](https://github.com/repetier/Repetier-Server/issues/new/choose). We will read the
 reports and may publish one or two bug-fix releases, but we cannot promise a fix or an answer.
 

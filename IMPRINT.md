@@ -4,7 +4,7 @@ Information according to § 5 DDG (German Digital Services Act).
 
 ## Publisher
 
-Hot-World GmbH & Co. KG<br>
+Hot-World GmbH & Co. KG i. L.<br>
 Uhlandstr. 9<br>
 47877 Willich<br>
 Germany
