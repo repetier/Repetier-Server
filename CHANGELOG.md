@@ -14,7 +14,6 @@
 
 ## 2.0.0
 
-
 ### License
 
 - Repetier-Server is now free for everyone. All features are available without a license key.

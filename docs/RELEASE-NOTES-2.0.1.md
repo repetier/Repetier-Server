@@ -43,6 +43,18 @@ Not sure which Linux package you need? See
 - **30 June 2027:** The automatic update check and the Repetier-Informer push service are switched
   off. Repetier-Server keeps working after that date.
 
+## Raspberry Pi Image
+
+A ready-to-use SD card image with Repetier-Server 2.0.1 is available for the Raspberry Pi:
+`Repetier-Server-Image_2_0_1_v40.img.xz`. It is based on Raspberry Pi OS Trixie.
+
+> [!IMPORTANT]
+> The image has a default user **repetier** with the password **repetier**. Change the password
+> after the installation for security reasons!
+
+Installation and setup are described in the
+[Raspberry Pi image guide](https://github.com/repetier/Repetier-Server/blob/main/docs/RASPBERRY-PI-IMAGE.md).
+
 ## Legal
 
 By installing Repetier-Server you accept the

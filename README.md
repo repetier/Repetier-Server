@@ -70,6 +70,12 @@ The latest version is **Repetier-Server 2.0.1**. All files are attached to the
 
 Each release also contains a `SHA256SUMS.txt` file so you can verify your download.
 
+**Raspberry Pi:** There is also a ready-to-use SD card image with Repetier-Server 2.0.1
+preinstalled: [Repetier-Server-Image_2_0_1_v40.img.xz][pi-image]. See the
+[Raspberry Pi image guide](docs/RASPBERRY-PI-IMAGE.md) for installation and setup.
+
+[pi-image]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-Image_2_0_1_v40.img.xz
+
 [win-x64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-windows-x64.exe
 [win-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-windows-arm64.exe
 [mac-arm64]: https://github.com/repetier/Repetier-Server/releases/download/v2.0.1/Repetier-Server-2.0.1-macos-arm64.pkg
@@ -194,6 +200,12 @@ sudo apt install ./Repetier-Server-2.0.1-linux-arm64.deb
 ```
 
 Then open `http://<ip-of-your-device>:3344` in your browser.
+
+### Raspberry Pi image
+
+Write the Raspberry Pi image to an SD card with the Raspberry Pi Imager or balenaEtcher and start
+your Pi. The default user is **repetier** with the password **repetier** – change it after the
+installation. All steps are described in the [Raspberry Pi image guide](docs/RASPBERRY-PI-IMAGE.md).
 
 ### Upgrading from 1.x
 
